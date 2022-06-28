@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Student Counselling project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <link rel="stylesheet" href="style4.css">
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <header>
+            <img src="indexcollege1.jpg.jpg" class="banner">
+            <a href="#" class="logo">Student Counselling Bot.</a>
+            <div class="toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="colleges.html">Colleges</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators" >
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                  <li data-target="#demo" data-slide-to="4"></li>
+        
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner" style="margin-top:50px;margin-left: 400px;">
+                  <div class="carousel-item active">
+                    <img src="https://www.collegechalo.com/news/wp-content/uploads/2021/10/PSGCOllegeofTechCOimbatore.jpg" style="width:50%;height:520px;">
+                  </div>
+                <div class="carousel-item">
+                    <img src="https://images.shiksha.com/mediadata/images/1520420083phpyKP3vR.jpeg" style="width:50%;height:520px;">
+                  </div>
+                <div class="carousel-item">
+                    <img src="https://epics.bitsathy.ac.in/images/banner02.JPG" style="width:50%;height:520px;">
+                    </div>
+                <div class="carousel-item">
+                        <img src="https://www.cit.edu.in/wp-content/themes/cit/images/qip.jpg" style="width:50%;height:520px;">
+                        </div>
+                <div class="carousel-item">
+                            <img src="https://timesofindia.indiatimes.com/thumb/msid-82034941,imgsize-226434,width-400,resizemode-4/82034941.jpg" style="width:50%;height:520px;">
+                            </div>
+                
+                    
+                  
+                </div>
+                
+                
+                <a class="carousel-control-prev" href="#demo" data-slide="prev" style="color:black;" width="50%">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next" style="color:black;" width="50%">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        
+            
+            
+            <table width="100%" height="236" border="0" cellspacing="5" cellpadding="5" bgcolor="white">
+                <tr>
+                    <td height="82" align="center" valign="top">
+                        
+                        <form name="first" method="post" action="get.php">
+                            <fieldset class="feildset" style="margin-top:50px; background-color: #94befd;"> 
+                                <legend style="color:red;text-align:left;margin-left:20px;font-size:larger;font-family:'Courier New', Courier, monospace;font: weight 450px;"><b>See what are the colleges you may get</b></legend><br>
+                            <label color="black" size="3" face="Verdana, Geneva, sans-serif"><strong>Enter name : </strong></label>
+                            <input type="text" name="username" /><br />
+                            <p>
+        
+                                <p>
+                                    <label color="black" size="3" face="Verdana, Geneva, sans-serif"><strong>Enter rank : </strong></label>
+                                    <input type="text" name="rank" /><br />
+                                </p>
+                                <p>
+                                    <label color="black" size="3" face="Verdana, Geneva, sans-serif"><strong>Choose course : </strong></label>
+                                    <select name="degree">
+                                    <option value="cs">COMPUTER SCIENCE ENGINEERING</option>
+                                    <option value="ec">ELECTRICAL AND COMMUNICATION ENGINEERING</option>
+                                    <option value="ee">ELECTRICAL AND ELECTRONICS ENGINEERING</option><br />
+                                    </select>
+                                    <br>
+        
+                                    <label style="margin-top: 20px" color="black" size="3" face="Verdana, Geneva, sans-serif"><strong>Choose caste : </strong></labl>
+            <select name="caste">
+            <option value="oc">OC</option>
+            <option value="bc">BC</option>
+            <option value="st">ST</option>
+            <br>
+            </p>
+            &nbsp;&nbsp;
+            <input type="submit" name="button" value="Predict results" />
+            </p>
+            </fieldset>
+            </form>
+               </td>
+          </tr>
+        </table> 
+        </section>
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social_icon">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="colleges.html">Colleges</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>©2021 Student Counselling Bot | All Rights Reserved</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            window.addEventListener("scroll",function(){
+                const header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+            const navigation = document.querySelector('nav');
+            document.querySelector('.toggle').onclick = function(){
+                this.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+
+       
+    </body>
+</html>
